@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e2e2e"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="32dip"
+                android:background="#20ffffff"
+                android:gravity="left|center"
+                android:paddingLeft="8dip"
+                android:text="@string/category_si"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/si_seoul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_seoul_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_seoul"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_incheon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_incheon_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_incheon"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_busan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_busan_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_busan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_daegu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_daegu_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_daegu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_daejeon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_daejeon_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_daejeon"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_ulsan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_ulsan_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_ulsan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/si_gwangju"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/si_gwangju_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/si_gwangju"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="32dip"
+                android:background="#20ffffff"
+                android:gravity="left|center"
+                android:paddingLeft="8dip"
+                android:text="@string/category_do"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/do_gyeonggi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_gyeonggi_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_gyeonggi"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_gangwon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_gangwon_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_gangwon"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_gyeongsangnam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_gyeongsangnam_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_gyeongsangnam"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_gyeongsangbuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_gyeongsangbuk_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_gyeongsangbuk"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_chungcheongnam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_chungcheongnam_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_chungcheongnam"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_chungcheongbuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_chungcheongbuk_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_chungcheongbuk"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_jeollanam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_jeollanam_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_jeollanam"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_jeollabuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_jeollabuk_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_jeollabuk"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/do_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/action_btn_bg"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="56dip"
+                    android:layout_height="56dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dip"
+                    android:src="@drawable/do_jeju_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/do_jeju"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

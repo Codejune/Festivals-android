@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.festivals.CorneredImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="72dip"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip" />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="16dip"
+        android:layout_marginLeft="28dip"
+        android:layout_marginRight="28dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/festival_info_list_shadow" />
+
+</LinearLayout>

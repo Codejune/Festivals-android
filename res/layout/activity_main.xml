@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.festivals.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+
+
+
+    <ScrollView
+        android:layout_marginTop="168dp"
+        android:id="@+id/lv_festivals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/festivals_list_bg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
