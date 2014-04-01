@@ -26,6 +26,8 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity {
+	// Recommened Charset UTF-8
+		private String encoding = "UTF-8";
 
 	/**
 	 * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -127,13 +129,6 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
 	}
 
 	/**
@@ -392,7 +387,7 @@ public class MainActivity extends FragmentActivity {
 		case KeyEvent.KEYCODE_BACK:
 
 			new AlertDialog.Builder(this)
-					.setTitle("어플리케이션 종료")
+					.setTitle("종료")
 					.setMessage("어플리케이션을 종료합니다")
 					.setPositiveButton("예",
 							new DialogInterface.OnClickListener() {

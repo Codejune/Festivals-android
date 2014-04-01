@@ -13,6 +13,9 @@ public final class R {
     public static final class bool {
         public static final int transparent_nav=0x7f040000;
     }
+    public static final class color {
+        public static final int default_background=0x7f050000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -20,8 +23,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int ab_background=0x7f020000;
@@ -37,34 +40,34 @@ public final class R {
         public static final int do_jeollabuk_icon=0x7f02000a;
         public static final int do_jeollanam_icon=0x7f02000b;
         public static final int fall3=0x7f02000c;
-        public static final int festival_icon_bg=0x7f02000d;
-        public static final int festival_info_btn_bg=0x7f02000e;
-        public static final int festival_info_list_shadow=0x7f02000f;
-        public static final int festivals_list_bg=0x7f020010;
-        public static final int ic_calendar=0x7f020011;
-        public static final int ic_launcher=0x7f020012;
-        public static final int ic_map=0x7f020013;
-        public static final int ic_see=0x7f020014;
-        public static final int ic_web=0x7f020015;
-        public static final int korea_icon=0x7f020016;
-        public static final int list_item_btn_bg=0x7f020017;
-        public static final int menu_bg_pressed=0x7f020018;
-        public static final int menu_slide_arrow=0x7f020019;
-        public static final int si_busan_icon=0x7f02001a;
-        public static final int si_daegu_icon=0x7f02001b;
-        public static final int si_daejeon_icon=0x7f02001c;
-        public static final int si_gwangju_icon=0x7f02001d;
-        public static final int si_incheon_icon=0x7f02001e;
-        public static final int si_seoul_icon=0x7f02001f;
-        public static final int si_ulsan_icon=0x7f020020;
-        public static final int summer2=0x7f020021;
-        public static final int winter2=0x7f020022;
+        public static final int festival=0x7f02000d;
+        public static final int festival_icon_bg=0x7f02000e;
+        public static final int festival_info_btn_bg=0x7f02000f;
+        public static final int festival_info_list_shadow=0x7f020010;
+        public static final int festivals_list_bg=0x7f020011;
+        public static final int ic_calendar=0x7f020012;
+        public static final int ic_launcher=0x7f020013;
+        public static final int ic_map=0x7f020014;
+        public static final int ic_see=0x7f020015;
+        public static final int ic_web=0x7f020016;
+        public static final int korea_icon=0x7f020017;
+        public static final int list_item_btn_bg=0x7f020018;
+        public static final int menu_bg_pressed=0x7f020019;
+        public static final int menu_slide_arrow=0x7f02001a;
+        public static final int si_busan_icon=0x7f02001b;
+        public static final int si_daegu_icon=0x7f02001c;
+        public static final int si_daejeon_icon=0x7f02001d;
+        public static final int si_gwangju_icon=0x7f02001e;
+        public static final int si_incheon_icon=0x7f02001f;
+        public static final int si_seoul_icon=0x7f020020;
+        public static final int si_ulsan_icon=0x7f020021;
+        public static final int summer2=0x7f020022;
+        public static final int winter2=0x7f020023;
     }
     public static final class id {
         public static final int ImageView01=0x7f090003;
         public static final int ab_icon=0x7f090005;
         public static final int ab_lable=0x7f090004;
-        public static final int action_settings=0x7f09002c;
         public static final int actionbar=0x7f090000;
         public static final int appointment=0x7f09000d;
         public static final int btn_slide_menu=0x7f090001;
@@ -111,65 +114,64 @@ public final class R {
         public static final int actionbar=0x7f030000;
         public static final int activity_festival_info=0x7f030001;
         public static final int activity_main=0x7f030002;
-        public static final int do_chungcheongbuk=0x7f030003;
-        public static final int do_chungcheongnam=0x7f030004;
-        public static final int do_gangwon=0x7f030005;
-        public static final int do_gyeonggi=0x7f030006;
-        public static final int do_gyeonsangbuk=0x7f030007;
-        public static final int do_gyeonsangnam=0x7f030008;
-        public static final int do_jeju=0x7f030009;
-        public static final int do_jeollabuk=0x7f03000a;
-        public static final int do_jeollanam=0x7f03000b;
-        public static final int festival_info_appointment=0x7f03000c;
-        public static final int festival_info_introduction=0x7f03000d;
-        public static final int festival_info_place=0x7f03000e;
-        public static final int festival_info_title=0x7f03000f;
-        public static final int festivals_list_item=0x7f030010;
-        public static final int fragment_main_dummy=0x7f030011;
-        public static final int layout_menu=0x7f030012;
-        public static final int main=0x7f030013;
-        public static final int roundimageview=0x7f030014;
-        public static final int si_busan=0x7f030015;
-        public static final int si_daegu=0x7f030016;
-        public static final int si_daejeon=0x7f030017;
-        public static final int si_gwangju=0x7f030018;
-        public static final int si_incheon=0x7f030019;
-        public static final int si_seoul=0x7f03001a;
-        public static final int si_ulsan=0x7f03001b;
-    }
-    public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int activity_splash=0x7f030003;
+        public static final int do_chungcheongbuk=0x7f030004;
+        public static final int do_chungcheongnam=0x7f030005;
+        public static final int do_gangwon=0x7f030006;
+        public static final int do_gyeonggi=0x7f030007;
+        public static final int do_gyeonsangbuk=0x7f030008;
+        public static final int do_gyeonsangnam=0x7f030009;
+        public static final int do_jeju=0x7f03000a;
+        public static final int do_jeollabuk=0x7f03000b;
+        public static final int do_jeollanam=0x7f03000c;
+        public static final int festival_info_appointment=0x7f03000d;
+        public static final int festival_info_introduction=0x7f03000e;
+        public static final int festival_info_place=0x7f03000f;
+        public static final int festival_info_title=0x7f030010;
+        public static final int festivals_list_item=0x7f030011;
+        public static final int fragment_main_dummy=0x7f030012;
+        public static final int layout_menu=0x7f030013;
+        public static final int main=0x7f030014;
+        public static final int roundimageview=0x7f030015;
+        public static final int si_busan=0x7f030016;
+        public static final int si_daegu=0x7f030017;
+        public static final int si_daejeon=0x7f030018;
+        public static final int si_gwangju=0x7f030019;
+        public static final int si_incheon=0x7f03001a;
+        public static final int si_seoul=0x7f03001b;
+        public static final int si_ulsan=0x7f03001c;
     }
     public static final class string {
-        public static final int action_settings=0x7f060002;
-        public static final int app_name=0x7f060000;
-        public static final int category_do=0x7f060004;
-        public static final int category_festival_appointment=0x7f060015;
-        public static final int category_festival_introduce=0x7f060017;
-        public static final int category_festival_place=0x7f060016;
-        public static final int category_si=0x7f060003;
-        public static final int do_chungcheongbuk=0x7f060009;
-        public static final int do_chungcheongnam=0x7f06000a;
-        public static final int do_gangwon=0x7f060006;
-        public static final int do_gyeonggi=0x7f060005;
-        public static final int do_gyeongsangbuk=0x7f060008;
-        public static final int do_gyeongsangnam=0x7f060007;
-        public static final int do_jeju=0x7f06000b;
-        public static final int do_jeollabuk=0x7f06000d;
-        public static final int do_jeollanam=0x7f06000c;
-        public static final int hello_world=0x7f060001;
-        public static final int si_busan=0x7f060010;
-        public static final int si_daegu=0x7f060013;
-        public static final int si_daejeon=0x7f060012;
-        public static final int si_gwangju=0x7f060014;
-        public static final int si_incheon=0x7f06000f;
-        public static final int si_seoul=0x7f06000e;
-        public static final int si_ulsan=0x7f060011;
-        public static final int title_activity_festival_info=0x7f060018;
+        public static final int action_settings=0x7f070002;
+        public static final int app_name=0x7f070000;
+        public static final int category_do=0x7f070004;
+        public static final int category_festival_appointment=0x7f070015;
+        public static final int category_festival_introduce=0x7f070017;
+        public static final int category_festival_place=0x7f070016;
+        public static final int category_si=0x7f070003;
+        public static final int do_chungcheongbuk=0x7f070009;
+        public static final int do_chungcheongnam=0x7f07000a;
+        public static final int do_gangwon=0x7f070006;
+        public static final int do_gyeonggi=0x7f070005;
+        public static final int do_gyeongsangbuk=0x7f070008;
+        public static final int do_gyeongsangnam=0x7f070007;
+        public static final int do_jeju=0x7f07000b;
+        public static final int do_jeollabuk=0x7f07000d;
+        public static final int do_jeollanam=0x7f07000c;
+        public static final int hello_world=0x7f070001;
+        public static final int si_busan=0x7f070010;
+        public static final int si_daegu=0x7f070013;
+        public static final int si_daejeon=0x7f070012;
+        public static final int si_gwangju=0x7f070014;
+        public static final int si_incheon=0x7f07000f;
+        public static final int si_seoul=0x7f07000e;
+        public static final int si_ulsan=0x7f070011;
+        public static final int splash_logo=0x7f070019;
+        public static final int title_activity_festival_info=0x7f070018;
     }
     public static final class style {
-        public static final int ActionBar=0x7f070001;
-        public static final int ActionBarTitle=0x7f070003;
+        public static final int ActionBar=0x7f080001;
+        public static final int ActionBarTitle=0x7f080003;
         /** 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
@@ -182,15 +184,15 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070005;
+        public static final int AppBaseTheme=0x7f080005;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
 
     
          */
-        public static final int AppTheme=0x7f070000;
-        public static final int do_textStyle=0x7f070002;
-        public static final int full_screen_dialog=0x7f070004;
+        public static final int AppTheme=0x7f080000;
+        public static final int do_textStyle=0x7f080002;
+        public static final int full_screen_dialog=0x7f080004;
     }
 }

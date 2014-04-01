@@ -26,5 +26,6 @@
     <string name="category_festival_place">장소</string>
     <string name="category_festival_introduce">소개</string>
     <string name="title_activity_festival_info">FestivalInfoActivity</string>
+    <string name="splash_logo">Festivals Application</string>
 
 </resources>
